@@ -62,3 +62,23 @@
 
 // const arr7 = [...arr4, ...arr5];
 // console.log(arr7);
+
+// const names = ["yamada", "suzuki", "tanaka"];
+// names.map((name) => {
+//   return console.log(name);
+// });
+
+// const nums = [1, 2, 3, 4, 5];
+// const newNums = nums.filter((num) => {
+//   return num % 2 === 1;
+// });
+
+// console.log(newNums);
+
+// 三項演算子
+const names = ["moritaka", "tanaka", "suzuki"];
+const newNames = names.map((name) => {
+  return name === "moritaka" ? name : `${name}さん`;
+});
+
+console.log(newNames);
