@@ -1,3 +1,4 @@
+// テンプレート文字列
 const name = "moritaka";
 const age = "40";
 
